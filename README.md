@@ -8,7 +8,7 @@ A simple, multi-threaded application to convert MTS video files to MP4 format us
 - Batch conversion capabilities
 - Multi-threaded processing for faster conversions
 - Progress tracking and status updates
-- Original MTS files are automatically removed after successful conversion
+- Original MTS files are preserved after conversion
 
 ## Requirements
 
@@ -178,7 +178,8 @@ chmod +x mts_converter_gui.py
 2. Adjust the number of parallel conversions if desired (default is 75% of CPU cores)
 3. Click "Start Conversion" to begin the process
 4. Monitor progress in the status area
-5. When conversion is complete, successfully converted files will be in the same directory as the original files, but with .mp4 extension
+5. When conversion is complete, the MP4 files will be in the same directory as the original files
+6. The original MTS files are preserved and not deleted
 
 ## Troubleshooting
 
